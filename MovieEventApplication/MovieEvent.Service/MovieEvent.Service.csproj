@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MovieEvent.Domain\MovieEvent.Domain.csproj" />
     <ProjectReference Include="..\MovieEvent.Repository\MovieEvent.Repository.csproj" />
   </ItemGroup>

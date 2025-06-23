@@ -48,5 +48,10 @@ namespace MovieEvent.Service.Implementation
         {
             return _movieRepository.Update(movie);
         }
+        public ICollection<Movie> InsertMany(ICollection<Movie> movies)
+        {
+            return _movieRepository.InsertMany(movies);
+        }
+
     }
 }

@@ -10,3 +10,4 @@ C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Domai
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Domain\obj\Debug\net8.0\refint\MovieEvent.Domain.dll
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Domain\obj\Debug\net8.0\MovieEvent.Domain.pdb
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Domain\obj\Debug\net8.0\ref\MovieEvent.Domain.dll
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Domain\obj\Debug\net8.0\MovieEvent.Domain.sourcelink.json

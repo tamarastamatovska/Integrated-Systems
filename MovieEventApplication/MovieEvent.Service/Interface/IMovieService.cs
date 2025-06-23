@@ -14,5 +14,6 @@ namespace MovieEvent.Service.Interface
         Movie Insert(Movie movie);
         Movie Update(Movie movie);
         Movie DeleteById(Guid id);
+        ICollection<Movie> InsertMany(ICollection<Movie> movies);
     }
 }

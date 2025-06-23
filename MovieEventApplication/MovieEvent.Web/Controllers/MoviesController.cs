@@ -15,10 +15,12 @@ namespace MovieEvent.Web.Controllers
     public class MoviesController : Controller
     {
         private readonly IMovieService _movieService;
+        private readonly IDataFetchService _fetchService;
 
-        public MoviesController(IMovieService movieService)
+        public MoviesController(IMovieService movieService, IDataFetchService fetchService)
         {
             _movieService = movieService;
+            _fetchService = fetchService;
         }
 
         // GET: Movies
@@ -106,6 +108,12 @@ namespace MovieEvent.Web.Controllers
         {
             _movieService.DeleteById(id);
 
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> FetchMovies()
+        {
+            await _fetchService.FetchMoviesFromApi();
             return RedirectToAction(nameof(Index));
         }
 

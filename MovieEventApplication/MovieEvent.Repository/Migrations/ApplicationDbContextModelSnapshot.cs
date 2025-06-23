@@ -161,13 +161,7 @@ namespace MovieEvent.Repository.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Duration")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Genre")
+                    b.Property<string>("Actors")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PosterUrl")
@@ -178,9 +172,6 @@ namespace MovieEvent.Repository.Data.Migrations
 
                     b.Property<int>("RANKCategory")
                         .HasColumnType("int");
-
-                    b.Property<DateTime?>("ReleaseDate")
-                        .HasColumnType("datetime2");
 
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");

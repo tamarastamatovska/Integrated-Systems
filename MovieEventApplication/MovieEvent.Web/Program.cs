@@ -26,8 +26,9 @@ builder.Services.AddTransient<IMovieService, MovieService>();
 builder.Services.AddTransient<IMovieRatingService, MovieRatingService>();
 builder.Services.AddTransient<IScreeningService, ScreeningService>();
 builder.Services.AddTransient<IReservationService, ReservationService>();
+builder.Services.AddTransient<IDataFetchService, DataFetchService>();
 
-
+builder.Services.AddHttpClient();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

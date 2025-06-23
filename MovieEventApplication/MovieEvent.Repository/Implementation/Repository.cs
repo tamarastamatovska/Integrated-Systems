@@ -104,5 +104,12 @@ namespace MovieEvent.Repository.Implementation
             return query.Select(selector).AsEnumerable();
         }
 
+        public ICollection<T> InsertMany(ICollection<T> entity)
+        {
+            _context.AddRange(entity);
+            _context.SaveChanges();
+            return entity;
+        }
+
     }
 }
