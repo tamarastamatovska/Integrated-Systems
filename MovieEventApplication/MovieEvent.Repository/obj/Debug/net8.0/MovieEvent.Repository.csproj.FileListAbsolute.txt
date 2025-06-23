@@ -13,3 +13,4 @@ C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Repos
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Repository\bin\Debug\net8.0\MovieEvent.Domain.dll
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Repository\bin\Debug\net8.0\MovieEvent.Domain.pdb
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Repository\obj\Debug\net8.0\MovieEve.C3DCF896.Up2Date
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Repository\obj\Debug\net8.0\MovieEvent.Repository.sourcelink.json

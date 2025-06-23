@@ -16,7 +16,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.14",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
           "MovieEvent.Domain": "1.0.0",
-          "MovieEvent.Repository": "1.0.0"
+          "MovieEvent.Repository": "1.0.0",
+          "MovieEvent.Service": "1.0.0"
         },
         "runtime": {
           "MovieEvent.Web.dll": {}
@@ -2308,6 +2309,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "MovieEvent.Service/1.0.0": {
+        "dependencies": {
+          "MovieEvent.Domain": "1.0.0",
+          "MovieEvent.Repository": "1.0.0"
+        },
+        "runtime": {
+          "MovieEvent.Service.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -3576,6 +3589,11 @@
       "sha512": ""
     },
     "MovieEvent.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieEvent.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

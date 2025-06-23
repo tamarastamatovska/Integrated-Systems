@@ -3195,6 +3195,20 @@
         "runtime": {
           "bin/placeholder/MovieEvent.Repository.dll": {}
         }
+      },
+      "MovieEvent.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MovieEvent.Domain": "1.0.0",
+          "MovieEvent.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MovieEvent.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieEvent.Service.dll": {}
+        }
       }
     }
   },
@@ -8628,6 +8642,11 @@
       "type": "project",
       "path": "../MovieEvent.Repository/MovieEvent.Repository.csproj",
       "msbuildProject": "../MovieEvent.Repository/MovieEvent.Repository.csproj"
+    },
+    "MovieEvent.Service/1.0.0": {
+      "type": "project",
+      "path": "../MovieEvent.Service/MovieEvent.Service.csproj",
+      "msbuildProject": "../MovieEvent.Service/MovieEvent.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8640,7 +8659,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.14",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
       "MovieEvent.Domain >= 1.0.0",
-      "MovieEvent.Repository >= 1.0.0"
+      "MovieEvent.Repository >= 1.0.0",
+      "MovieEvent.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8681,6 +8701,9 @@
             },
             "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj": {
               "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj"
+            },
+            "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj": {
+              "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj"
             }
           }
         }

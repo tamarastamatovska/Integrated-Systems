@@ -2,6 +2,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MovieEvent.Domain.IdentityModels;
 using MovieEvent.Repository;
+using MovieEvent.Repository.Implementation;
+using MovieEvent.Repository.Interface;
+using MovieEvent.Service.Implementation;
+using MovieEvent.Service.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +17,17 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<MovieUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
+
+builder.Services.AddTransient<IMovieService, MovieService>();
+builder.Services.AddTransient<IMovieRatingService, MovieRatingService>();
+builder.Services.AddTransient<IScreeningService, ScreeningService>();
+builder.Services.AddTransient<IReservationService, ReservationService>();
+
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

@@ -311,3 +311,6 @@ C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Web\b
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Web\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Web\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Web\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Web\bin\Debug\net8.0\MovieEvent.Service.dll
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Web\bin\Debug\net8.0\MovieEvent.Service.pdb
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Web\obj\Debug\net8.0\MovieEvent.Web.sourcelink.json

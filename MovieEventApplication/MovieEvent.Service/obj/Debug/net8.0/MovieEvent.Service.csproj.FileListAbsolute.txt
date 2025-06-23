@@ -9,3 +9,10 @@ C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Servi
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\obj\Debug\net8.0\refint\MovieEvent.Service.dll
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\obj\Debug\net8.0\MovieEvent.Service.pdb
 C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\obj\Debug\net8.0\ref\MovieEvent.Service.dll
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\bin\Debug\net8.0\MovieEvent.Domain.dll
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\bin\Debug\net8.0\MovieEvent.Repository.dll
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\bin\Debug\net8.0\MovieEvent.Domain.pdb
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\bin\Debug\net8.0\MovieEvent.Repository.pdb
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\obj\Debug\net8.0\MovieEvent.Service.csproj.AssemblyReference.cache
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\obj\Debug\net8.0\MovieEvent.Service.sourcelink.json
+C:\Users\Tamara\Desktop\MoviesApplication\MovieEventApplication\MovieEvent.Service\obj\Debug\net8.0\MovieEve.8ACCBC11.Up2Date

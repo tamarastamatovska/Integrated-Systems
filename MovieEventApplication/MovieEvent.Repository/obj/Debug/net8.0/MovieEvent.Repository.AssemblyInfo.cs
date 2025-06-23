@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieEvent.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+242e672d41299c29fe3e7c2df56658a78e94c50e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieEvent.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieEvent.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

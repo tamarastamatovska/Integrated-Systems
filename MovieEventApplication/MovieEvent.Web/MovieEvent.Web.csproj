@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MovieEvent.Domain\MovieEvent.Domain.csproj" />
     <ProjectReference Include="..\MovieEvent.Repository\MovieEvent.Repository.csproj" />
+    <ProjectReference Include="..\MovieEvent.Service\MovieEvent.Service.csproj" />
   </ItemGroup>
 
 </Project>
