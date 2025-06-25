@@ -54,3 +54,32 @@
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+
+@using MovieEvent.Domain.DomainModels
+@{
+    var comments = ViewBag.Comments as List<UserMovieRating>;
+}
+
+<h2>@Model.Title</h2>
+<p><strong>Average Rating:</strong> @ViewBag.AverageRating.ToString("0.00")</p>
+
+<h3>Comments:</h3>
+
+@if (comments != null && comments.Count > 0)
+{
+    <ul>
+        @foreach (var item in comments)
+        {
+            <li>
+                <strong>@item.User?.FirstName </strong>:
+                @item.MovieRating?.Rating/10 - @item.MovieRating?.Comment
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No comments yet.</p>
+}
+
+<a asp-action="Rate" asp-route-id="@Model.Id" class="btn btn-primary">Rate this movie</a>

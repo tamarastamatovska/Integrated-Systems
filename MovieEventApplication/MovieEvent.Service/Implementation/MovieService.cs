@@ -53,5 +53,21 @@ namespace MovieEvent.Service.Implementation
             return _movieRepository.InsertMany(movies);
         }
 
+        public double GetAverageRating(Guid movieId)
+        {
+            var movie = GetById(movieId);
+            if(movie == null)
+            {
+                throw new Exception("Movie not found");
+            }
+
+            if (movie.MovieRatings == null || !movie.MovieRatings.Any())
+            {
+                return 0; 
+            }
+
+            return movie.MovieRatings.Average(r => r.Rating);
+
+        }
     }
 }

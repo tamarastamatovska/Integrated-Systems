@@ -27,6 +27,7 @@ builder.Services.AddTransient<IMovieRatingService, MovieRatingService>();
 builder.Services.AddTransient<IScreeningService, ScreeningService>();
 builder.Services.AddTransient<IReservationService, ReservationService>();
 builder.Services.AddTransient<IDataFetchService, DataFetchService>();
+builder.Services.AddTransient<IUserMovieRatingService, UserMovieRatingService>();
 
 builder.Services.AddHttpClient();
 builder.Services.AddControllersWithViews();
