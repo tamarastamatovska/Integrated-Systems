@@ -17,5 +17,6 @@ namespace MovieEvent.Service.Interface
         ICollection<Movie> InsertMany(ICollection<Movie> movies);
         double GetAverageRating(Guid movieId);
         Movie? GetByIdWithScreenings(Guid id);
+        List<Movie> SearchByTitle(string text);
     }
 }

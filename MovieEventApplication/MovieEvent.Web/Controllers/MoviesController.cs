@@ -201,6 +201,18 @@ namespace MovieEvent.Web.Controllers
             return View(screenings);
         }
 
+        [HttpGet]
+        public IActionResult Search(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                return View("Index", _movieService.GetAll());
+            }
+
+            var filteredMovies = _movieService.SearchByTitle(query);
+            return View("Index", filteredMovies);
+        }
+
 
     }
 }

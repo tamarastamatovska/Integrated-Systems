@@ -78,6 +78,14 @@ namespace MovieEvent.Service.Implementation
             return movie.MovieRatings.Average(r => r.Rating);
 
         }
-        
+        public List<Movie> SearchByTitle(string text)
+        {
+            return _movieRepository.GetAll(
+                selector: x => x,
+                predicate: x => x.Title.ToLower().Contains(text.ToLower())
+            ).ToList();
+        }
+
+
     }
 }

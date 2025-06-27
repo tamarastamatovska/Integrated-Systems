@@ -64,6 +64,8 @@
                     <i class="bi bi-cloud-download"></i> Fetch Movies
                 </button>
             </form>
+           
+
             <a asp-controller="Reservations" asp-action="MyReservations" class="btn btn-custom">
                 <i class="bi bi-ticket-perforated"></i> My Reservations
             </a>
@@ -71,7 +73,12 @@
         <!-- Hidden create button -->
         <a asp-action="Create" class="d-none">Create New</a>
     </div>
-
+    <form asp-action="Search" method="get" class="mb-4">
+        <div class="input-group">
+            <input type="text" name="query" class="form-control" placeholder="Search movies by title..." />
+            <button type="submit" class="btn btn-custom">Search</button>
+        </div>
+    </form>
     <div class="row">
         @foreach (var movie in Model)
         {
