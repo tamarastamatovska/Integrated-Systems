@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MovieEvent.Domain.DomainModels;
 using MovieEvent.Repository;
+using MovieEvent.Service.Implementation;
 using MovieEvent.Service.Interface;
 
 namespace MovieEvent.Web.Controllers
@@ -15,16 +17,18 @@ namespace MovieEvent.Web.Controllers
     public class ReservationsController : Controller
     {
         private readonly IReservationService _reservationService;
+        private readonly IScreeningService _screeningService;
 
-        public ReservationsController(IReservationService reservationService)
+        public ReservationsController(IReservationService reservationService, IScreeningService screeningService)
         {
             _reservationService = reservationService;
+            _screeningService = screeningService;
         }
 
         // GET: Reservations
         public IActionResult Index()
         {
-           
+
             return View(_reservationService.GetAll());
         }
 
@@ -41,25 +45,53 @@ namespace MovieEvent.Web.Controllers
         }
 
         // GET: Reservations/Create
-        public IActionResult Create()
+        
+        public IActionResult Create(Guid id)
         {
-            
+            var screening = _screeningService.GetById(id);
+            if (screening == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.Screening = screening;
             return View();
         }
 
         // POST: Reservations/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("ScreeningId,UserId,ReservationCreatedDate,ReservedSeats,TotalPrice")] Reservation reservation)
+        public IActionResult Create(Guid id, int reservedSeats)
         {
-            if (ModelState.IsValid)
+            var screening = _screeningService.GetById(id);
+            if (screening == null)
             {
-                _reservationService.Insert(reservation);
-                return RedirectToAction(nameof(Index));
+                return NotFound();
             }
-            return View(reservation);
+
+            if (reservedSeats > screening.AvailableSeats)
+            {
+                ModelState.AddModelError("", "Not enough available seats.");
+                ViewBag.Screening = screening;
+                return View();
+            }
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            try
+            {
+                _reservationService.CreateReservation(id, userId, reservedSeats);
+                return RedirectToAction("MyReservations");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                ViewBag.Screening = screening;
+                return View();
+            }
         }
 
         // GET: Reservations/Edit/5
@@ -85,11 +117,16 @@ namespace MovieEvent.Web.Controllers
                 return NotFound();
             }
 
+            if (!ModelState.IsValid)
+            {
+                return View(reservation);
+            }
+
             _reservationService.Update(reservation);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("MyReservations");
         }
 
-        
+
 
         // GET: Reservations/Delete/5
         public IActionResult Delete(Guid id)
@@ -111,6 +148,17 @@ namespace MovieEvent.Web.Controllers
             _reservationService.DeleteById(id);
 
             return RedirectToAction(nameof(Index));
+        }
+
+
+        public IActionResult MyReservations()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var reservations = _reservationService.GetAll()
+                .Where(r => r.UserId == userId)
+                .ToList();
+
+            return View("MyReservations", reservations);
         }
 
         //private bool ReservationExists(Guid id)

@@ -5,28 +5,52 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+        color: white;
+    }
+
+    dt {
+        color: #0dcaf0; 
+    }
+
+    dd {
+        color: white;
+    }
+
+    a {
+        color: #0dcaf0;
+    }
+
+        a:hover {
+            color: #0a9ec9;
+        }
+</style>
+
 <h1>Details</h1>
 
 <div>
     <h4>Screening</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Movie)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Movie.Id)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Movie.Title)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.AvailableSeats)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.AvailableSeats)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.TicketPrice)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TicketPrice)
         </dd>
     </dl>

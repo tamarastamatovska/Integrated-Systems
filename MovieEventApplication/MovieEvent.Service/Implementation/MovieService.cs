@@ -1,4 +1,5 @@
-﻿using MovieEvent.Domain.DomainModels;
+﻿using Microsoft.EntityFrameworkCore;
+using MovieEvent.Domain.DomainModels;
 using MovieEvent.Repository.Interface;
 using MovieEvent.Service.Interface;
 using System;
@@ -37,6 +38,14 @@ namespace MovieEvent.Service.Implementation
             return _movieRepository.Get(selector: x => x,
                                           predicate: x => x.Id.Equals(id));
         }
+        public Movie? GetByIdWithScreenings(Guid id)
+        {
+            return _movieRepository.Get(
+                selector: x => x,
+                predicate: x => x.Id.Equals(id),
+                   include: x => x.Include(y => y.Screenings)
+            );
+        }
 
         public Movie Insert(Movie movie)
         {
@@ -69,5 +78,6 @@ namespace MovieEvent.Service.Implementation
             return movie.MovieRatings.Average(r => r.Rating);
 
         }
+        
     }
 }

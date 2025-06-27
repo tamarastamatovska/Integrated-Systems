@@ -1,85 +1,68 @@
 ﻿@model MovieEvent.Domain.DomainModels.Movie
-
-@{
-    ViewData["Title"] = "Details";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
-<h1>Details</h1>
-
-<div>
-    <h4>Movie</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        
-       
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PosterUrl)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PosterUrl)
-        </dd>
-        
-        
-        
-       
-        
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RANK)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RANK)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Year)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Year)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RANKCategory)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RANKCategory)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @using MovieEvent.Domain.DomainModels
 @{
+    ViewData["Title"] = "Movie Details";
     var comments = ViewBag.Comments as List<UserMovieRating>;
 }
 
-<h2>@Model.Title</h2>
-<p><strong>Average Rating:</strong> @ViewBag.AverageRating.ToString("0.00")</p>
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+    }
+</style>
 
-<h3>Comments:</h3>
+<div class="container py-4">
+    <div class="card bg-dark text-light shadow-lg border-info border-2 mb-4">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@Model.PosterUrl" class="img-fluid rounded-start" alt="@Model.Title" style="max-height: 100%; object-fit: cover;" />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title text-info">🎬 @Model.Title</h2>
+                    <p><strong>📅Year:</strong> @Model.Year</p>
+                    <p><strong>⭐RANK:</strong> @Model.RANK/10</p>
+                    <p><strong>⭐Average Rating:</strong> @ViewBag.AverageRating.ToString("0.00") / 10</p>
+                    <p><strong>🏷️Category based on IMDB Rank:</strong> @Model.RANKCategory</p>
+                    <p><strong>Actors: </strong><br></p>
+                    <p>@Model.Actors</p>
+                    <div class="mt-4">
+                        @* <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-info me-2">Edit</a> *@
+                        <a asp-action="Index" class="btn btn-outline-light">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-@if (comments != null && comments.Count > 0)
-{
-    <ul>
-        @foreach (var item in comments)
-        {
-            <li>
-                <strong>@item.User?.FirstName </strong>:
-                @item.MovieRating?.Rating/10 - @item.MovieRating?.Comment
-            </li>
-        }
-    </ul>
-}
-else
-{
-    <p>No comments yet.</p>
-}
+    <div class="card bg-dark text-light border-info border-1 shadow-sm mb-4">
+        <div class="card-body">
+            <h4 class="text-info">💬 Comments</h4>
 
-<a asp-action="Rate" asp-route-id="@Model.Id" class="btn btn-primary">Rate this movie</a>
+            @if (comments != null && comments.Count > 0)
+            {
+                <div class="list-group list-group-flush">
+                    @foreach (var item in comments)
+                    {
+                        <div class="list-group-item bg-secondary bg-opacity-10 text-light mb-2 border border-info rounded shadow-sm px-3 py-2">
+                            <div class="fw-bold text-info">@item.User?.FirstName</div>
+                            <div class="text-warning mb-1">@item.MovieRating?.Rating/10</div>
+                            <div><span class="text-muted">Commented:</span> @item.MovieRating?.Comment</div>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <p class="text-muted">No comments yet.</p>
+            }
+
+            <div class="mt-3 text-end">
+                <a asp-action="Rate" asp-route-id="@Model.Id" class="btn btn-info shadow-sm">
+                    <i class="bi bi-star-fill"></i> Rate this movie
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

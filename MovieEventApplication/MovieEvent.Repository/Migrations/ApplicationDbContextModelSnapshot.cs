@@ -248,11 +248,23 @@ namespace MovieEvent.Repository.Data.Migrations
                     b.Property<int>("AvailableSeats")
                         .HasColumnType("int");
 
+                    b.Property<string>("CinemaHall")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<Guid>("MovieId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int>("ReservedSeats")
+                        .HasColumnType("int");
+
+                    b.Property<DateOnly>("ScreeningDate")
+                        .HasColumnType("date");
+
                     b.Property<double>("TicketPrice")
                         .HasColumnType("float");
+
+                    b.Property<int>("TotalSeats")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

@@ -1,4 +1,5 @@
-﻿using MovieEvent.Domain.DomainModels;
+﻿using Microsoft.EntityFrameworkCore;
+using MovieEvent.Domain.DomainModels;
 using MovieEvent.Repository.Interface;
 using MovieEvent.Service.Interface;
 using System;
@@ -30,12 +31,14 @@ namespace MovieEvent.Service.Implementation
 
         public List<Screening> GetAll()
         {
-            return _screeningRepository.GetAll(selector: x => x).ToList();
+            return _screeningRepository.GetAll(
+             selector: x => x,
+            include: x => x.Include(y => y.Movie)).ToList();
         }
 
         public Screening? GetById(Guid id)
         {
-            return _screeningRepository.Get(selector: x => x,
+            return _screeningRepository.Get(selector: x => x,include:x=>x.Include(y=>y.Movie),
                                           predicate: x => x.Id.Equals(id));
         }
 

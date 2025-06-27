@@ -187,7 +187,20 @@ namespace MovieEvent.Web.Controllers
 
             return RedirectToAction("Details", new { id = model.MovieId });
         }
+        public IActionResult ViewScreenings(Guid id)
+        {
+            var movie = _movieService.GetByIdWithScreenings(id);
 
-        
+            if (movie == null)
+            {
+                return NotFound();
+            }
+
+            var screenings = movie.Screenings?.ToList() ?? new List<Screening>();
+
+            return View(screenings);
+        }
+
+
     }
 }

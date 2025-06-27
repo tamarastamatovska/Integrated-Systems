@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MovieEvent.Domain.DomainModels.Screening>
+
+@{
+    ViewData["Title"] = "Screenings";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+    }
+</style>
+
+<h2 class="text-center text-secondary mb-4">🎬 Screenings</h2>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    @foreach (var screening in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow bg-dark text-white border-info border-2">
+                <div class="card-header bg-info text-dark fw-bold">
+                    Cinema Hall: @screening.CinemaHall
+                </div>
+                <div class="card-body">
+                    <p><strong>Date:</strong> @screening.ScreeningDate.ToString("dd.MM.yyyy")</p>
+                    <p><strong>Available Seats:</strong> @screening.AvailableSeats</p>
+                    <p><strong>Ticket Price:</strong> @screening.TicketPrice ден.</p>
+                </div>
+                <div class="card-footer text-end">
+                    @if (screening.AvailableSeats > 0)
+                    {
+                        <a asp-controller="Reservations"
+                           asp-action="Create"
+                           asp-route-id="@screening.Id"
+                           class="btn btn-outline-success shadow-sm btn-sm">
+                            Reserve
+                        </a>
+                    }
+                    else
+                    {
+                        <button class="btn btn-outline-secondary btn-sm shadow-sm" disabled>
+                            Sold Out
+                        </button>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

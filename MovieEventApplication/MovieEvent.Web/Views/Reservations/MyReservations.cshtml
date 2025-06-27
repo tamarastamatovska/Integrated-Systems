@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MovieEvent.Domain.DomainModels.Reservation>
+
+@{
+    ViewData["Title"] = "My Reservations";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+</style>
+
+<h2 class="text-center text-secondary mb-4">🎟️ My Reservations</h2>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    @foreach (var reservation in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow bg-dark text-white border-info border-2">
+                <div class="card-header bg-info text-dark fw-bold">
+                    Screening of movie: @reservation.Screening?.Movie?.Title
+                </div>
+                <div class="card-body">
+                    <p><strong>Date:</strong> @reservation.Screening?.ScreeningDate.ToString("dd.MM.yyyy")</p>
+                    <p><strong>Reserved Seats:</strong> @reservation.ReservedSeats</p>
+                    <p><strong>Total Price:</strong> @reservation.TotalPrice ден.</p>
+                </div>
+                <div class="card-footer text-end">
+                    <a asp-action="Details"
+                       asp-route-id="@reservation.Id"
+                       class="btn btn-outline-info btn-sm shadow">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

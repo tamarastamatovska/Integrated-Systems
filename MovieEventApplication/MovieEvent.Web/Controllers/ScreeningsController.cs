@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MovieEvent.Domain.DomainModels;
 using MovieEvent.Repository;
+using MovieEvent.Service.Implementation;
 using MovieEvent.Service.Interface;
 
 namespace MovieEvent.Web.Controllers
@@ -15,10 +16,12 @@ namespace MovieEvent.Web.Controllers
     public class ScreeningsController : Controller
     {
         private readonly IScreeningService _screeningService;
+        private readonly IMovieService _movieService;
 
-        public ScreeningsController(IScreeningService screeningService)
+        public ScreeningsController(IScreeningService screeningService,IMovieService movieService)
         {
              _screeningService = screeningService;
+            _movieService = movieService;
         }
 
         // GET: Screenings
@@ -43,7 +46,8 @@ namespace MovieEvent.Web.Controllers
         // GET: Screenings/Create
         public IActionResult Create()
         {
-           
+            ViewBag.MovieId = new SelectList(_movieService.GetAll(), "Id", "Title");
+
             return View();
         }
 
@@ -52,7 +56,7 @@ namespace MovieEvent.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("MovieId,AvailableSeats,TicketPrice,Id")] Screening screening)
+        public IActionResult Create([Bind("MovieId,AvailableSeats,TicketPrice,CinemaHall,ScreeningDate,Id")] Screening screening)
         {
             if (ModelState.IsValid)
             {
@@ -70,6 +74,7 @@ namespace MovieEvent.Web.Controllers
             {
                 return NotFound();
             }
+            ViewBag.MovieId = new SelectList(_movieService.GetAll(), "Id", "Title");
             return View(screening);
         }
 
@@ -78,7 +83,7 @@ namespace MovieEvent.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Guid id, [Bind("MovieId,AvailableSeats,TicketPrice,Id")] Screening screening)
+        public IActionResult Edit(Guid id, [Bind("MovieId,AvailableSeats,TicketPrice,CinemaHall,ScreeningDate,Id")] Screening screening)
         {
             if (id != screening.Id)
             {

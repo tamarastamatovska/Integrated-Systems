@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\wwwroot\\images\\movieBg.jpg",
+      "PackagePath": "staticwebassets\\images\\movieBg.jpg"
+    },
+    {
       "Id": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

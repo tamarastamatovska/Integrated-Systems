@@ -5,55 +5,65 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+    }
+</style>
 
-<h4>Movie</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Title" class="control-label"></label>
-                <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger"></span>
-            </div>
-            
-            <div class="form-group">
-                <label asp-for="PosterUrl" class="control-label"></label>
-                <input asp-for="PosterUrl" class="form-control" />
-                <span asp-validation-for="PosterUrl" class="text-danger"></span>
-            </div>
-           
-            
-            
-            <div class="form-group">
-                <label asp-for="RANK" class="control-label"></label>
-                <input asp-for="RANK" class="form-control" />
-                <span asp-validation-for="RANK" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Year" class="control-label"></label>
-                <input asp-for="Year" class="form-control" />
-                <span asp-validation-for="Year" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RANKCategory" class="control-label"></label>
-                <select asp-for="RANKCategory" class="form-control"></select>
-                <span asp-validation-for="RANKCategory" class="text-danger"></span>
-            </div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+<div class="container py-4">
+    <div class="card bg-dark text-light shadow-lg border-info border-2">
+        <div class="card-header text-info fw-bold fs-4">
+            🎬 Edit Movie
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label">Title</label>
+                    <input asp-for="Title" class="form-control bg-dark text-light border-info" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PosterUrl" class="form-label">Poster URL</label>
+                    <input asp-for="PosterUrl" class="form-control bg-dark text-light border-info" />
+                    <span asp-validation-for="PosterUrl" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="RANK" class="form-label">Rating</label>
+                    <input asp-for="RANK" class="form-control bg-dark text-light border-info" />
+                    <span asp-validation-for="RANK" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Year" class="form-label">Year</label>
+                    <input asp-for="Year" class="form-control bg-dark text-light border-info" />
+                    <span asp-validation-for="Year" class="text-danger"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="RANKCategory" class="form-label">Category</label>
+                    <select asp-for="RANKCategory" class="form-control bg-dark text-light border-info"></select>
+                    <span asp-validation-for="RANKCategory" class="text-danger"></span>
+                </div>
+
+                <input type="hidden" asp-for="Id" />
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-outline-light">⬅ Back to List</a>
+                    <input type="submit" value="💾 Save" class="btn btn-info shadow" />
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

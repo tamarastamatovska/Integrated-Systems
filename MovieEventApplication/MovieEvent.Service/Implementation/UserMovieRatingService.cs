@@ -25,19 +25,7 @@ namespace MovieEvent.Service.Implementation
             return _userMovieRatingRepository.Insert(umr);
         }
 
-        //public List<UserMovieRating> GetRatingsByUser(string userId)
-        //{
-        //    return _userMovieRatingRepository
-        //        .GetAll(selector: x => x, predicate: x => x.UserId == userId)
-        //        .ToList();
-        //}
-
-        //public List<UserMovieRating> GetRatingsForMovie(Guid movieId)
-        //{
-        //    return _userMovieRatingRepository
-        //        .GetAll(selector: x => x, predicate: x => x.MovieRating.MovieId == movieId)
-        //        .ToList();
-        //}
+        
 
         public List<UserMovieRating> GetAll()
         {

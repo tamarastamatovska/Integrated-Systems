@@ -2469,6 +2469,88 @@
       ]
     },
     {
+      "Route": "images/movieBg.jpg",
+      "AssetFile": "images/movieBg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ul0mJbKJlJnzxVyGGB8X5Evz8R/d9tOLj0kzBuC9VKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 23:54:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ul0mJbKJlJnzxVyGGB8X5Evz8R/d9tOLj0kzBuC9VKs="
+        }
+      ]
+    },
+    {
+      "Route": "images/movieBg.uq02uppfz7.jpg",
+      "AssetFile": "images/movieBg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ul0mJbKJlJnzxVyGGB8X5Evz8R/d9tOLj0kzBuC9VKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 23:54:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uq02uppfz7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ul0mJbKJlJnzxVyGGB8X5Evz8R/d9tOLj0kzBuC9VKs="
+        },
+        {
+          "Name": "label",
+          "Value": "images/movieBg.jpg"
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js",
       "Selectors": [],

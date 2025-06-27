@@ -14,5 +14,7 @@ namespace MovieEvent.Service.Interface
         Reservation Insert(Reservation reservation);
         Reservation Update(Reservation reservation);
         Reservation DeleteById(Guid id);
+        Reservation CreateReservation(Guid screeningId, string userId, int reservedSeats);
+        
     }
 }

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieEvent.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24abd30cb2b6d6ccb8abb112a2611a273ede3e9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1b101b68b2c857f728d1d6ed6584c8a9c6f4c44")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieEvent.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieEvent.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

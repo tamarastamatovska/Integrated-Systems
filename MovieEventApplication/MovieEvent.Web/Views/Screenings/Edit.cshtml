@@ -1,45 +1,88 @@
 ﻿@model MovieEvent.Domain.DomainModels.Screening
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Screening";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+    }
 
-<h4>Screening</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="MovieId" class="control-label"></label>
-                <select asp-for="MovieId" class="form-control" asp-items="ViewBag.MovieId"></select>
-                <span asp-validation-for="MovieId" class="text-danger"></span>
+    label {
+        color: #0dcaf0;
+    }
+
+    .form-control {
+        background-color: #2c2c3c;
+        color: white;
+        border: 1px solid #0dcaf0;
+    }
+
+        .form-control:focus {
+            box-shadow: 0 0 5px #0dcaf0;
+            border-color: #0dcaf0;
+        }
+</style>
+
+<h2 class="text-center text-info mb-4">✏️ Edit Screening</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow bg-dark text-white border-info border-2">
+            <div class="card-header bg-info text-dark fw-bold">Update Screening Details</div>
+            <div class="card-body">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="mb-3">
+                        <label asp-for="MovieId" class="form-label">Movie</label>
+                        <select asp-for="MovieId" class="form-control" asp-items="ViewBag.MovieId"></select>
+                        <span asp-validation-for="MovieId" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="AvailableSeats" class="form-label">Available Seats</label>
+                        <input asp-for="AvailableSeats" class="form-control" />
+                        <span asp-validation-for="AvailableSeats" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="TicketPrice" class="form-label">Ticket Price</label>
+                        <input asp-for="TicketPrice" class="form-control" />
+                        <span asp-validation-for="TicketPrice" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="CinemaHall" class="form-label">Cinema Hall</label>
+                        <input asp-for="CinemaHall" class="form-control" />
+                        <span asp-validation-for="CinemaHall" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="ScreeningDate" class="form-label">Screening Date</label>
+                        <input asp-for="ScreeningDate" class="form-control" />
+                        <span asp-validation-for="ScreeningDate" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <input type="submit" value="💾 Save" class="btn btn-outline-info shadow" />
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="AvailableSeats" class="control-label"></label>
-                <input asp-for="AvailableSeats" class="form-control" />
-                <span asp-validation-for="AvailableSeats" class="text-danger"></span>
+            <div class="card-footer text-end">
+                <a asp-action="Index" class="btn btn-outline-secondary shadow">Back to List</a>
             </div>
-            <div class="form-group">
-                <label asp-for="TicketPrice" class="control-label"></label>
-                <input asp-for="TicketPrice" class="form-control" />
-                <span asp-validation-for="TicketPrice" class="text-danger"></span>
-            </div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

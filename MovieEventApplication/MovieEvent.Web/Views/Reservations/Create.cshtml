@@ -1,52 +1,87 @@
-﻿@model MovieEvent.Domain.DomainModels.Reservation
-
-@{
-    ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@{
+    ViewData["Title"] = "Make Reservation";
+    var screening = ViewBag.Screening as MovieEvent.Domain.DomainModels.Screening;
 }
 
-<h1>Create</h1>
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+    }
+</style>
 
-<h4>Reservation</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="ScreeningId" class="control-label"></label>
-                <select asp-for="ScreeningId" class ="form-control" asp-items="ViewBag.ScreeningId"></select>
+<h2 class="text-center text-info mb-4">🎫 Make Reservation</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow bg-dark text-white border-info border-2">
+            <div class="card-header bg-info text-dark fw-bold">
+                Screening Details
             </div>
-            <div class="form-group">
-                <label asp-for="UserId" class="control-label"></label>
-                <select asp-for="UserId" class ="form-control" asp-items="ViewBag.UserId"></select>
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    <input type="hidden" name="id" value="@screening.Id" />
+
+                    <div class="mb-3">
+                        <label class="form-label">Available Seats:</label>
+                        <span class="fw-bold">@screening.AvailableSeats</span><br />
+                        <label class="form-label">Ticket Price:</label>
+                        <span class="fw-bold">@screening.TicketPrice ДЕН.</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="reservedSeats" class="form-label">Number of Seats:</label>
+                        <input type="number" id="reservedSeats" name="reservedSeats"
+                               class="form-control bg-dark text-white border-info"
+                               min="1" max="@screening.AvailableSeats" value="1" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="totalPrice" class="form-label">Total Price:</label>
+                        <input type="text" id="totalPrice"
+                               class="form-control bg-dark text-white border-info"
+                               readonly />
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-outline-info shadow">Reserve</button>
+                       
+                    </div>
+
+                    <div class="d-grid mt-2">
+                        <a asp-controller="Movies" asp-action="ViewScreenings" asp-route-id="@screening.MovieId"
+                           class="btn btn-outline-secondary shadow">
+                            Cancel
+                        </a>
+                    </div>
+
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="ReservationCreatedDate" class="control-label"></label>
-                <input asp-for="ReservationCreatedDate" class="form-control" />
-                <span asp-validation-for="ReservationCreatedDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ReservedSeats" class="control-label"></label>
-                <input asp-for="ReservedSeats" class="form-control" />
-                <span asp-validation-for="ReservedSeats" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TotalPrice" class="control-label"></label>
-                <input asp-for="TotalPrice" class="form-control" />
-                <span asp-validation-for="TotalPrice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="card-footer bg-danger text-white">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <p>@error.ErrorMessage</p>
+                    }
+                </div>
+            }
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        const ticketPrice = @screening.TicketPrice.ToString(System.Globalization.CultureInfo.InvariantCulture);
+        const seatInput = document.getElementById('reservedSeats');
+        const totalInput = document.getElementById('totalPrice');
+
+        function updateTotal() {
+            const count = parseInt(seatInput.value) || 0;
+            totalInput.value = (count * ticketPrice).toFixed(2) + " ДЕН.";
+        }
+
+        seatInput.addEventListener('input', updateTotal);
+        updateTotal(); // init on load
+    </script>
 }

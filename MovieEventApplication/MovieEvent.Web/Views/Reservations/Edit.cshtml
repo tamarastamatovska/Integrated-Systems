@@ -1,55 +1,66 @@
 ﻿@model MovieEvent.Domain.DomainModels.Reservation
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Reservation";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+    }
+</style>
 
-<h4>Reservation</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="ScreeningId" class="control-label"></label>
-                <select asp-for="ScreeningId" class="form-control" asp-items="ViewBag.ScreeningId"></select>
-                <span asp-validation-for="ScreeningId" class="text-danger"></span>
+<h2 class="text-center text-info mb-4">✏️ Edit Reservation</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow bg-dark text-white border-info border-2">
+            <div class="card-header bg-info text-dark fw-bold">
+                Update Reservation Details
             </div>
-            <div class="form-group">
-                <label asp-for="UserId" class="control-label"></label>
-                <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
-                <span asp-validation-for="UserId" class="text-danger"></span>
+            <div class="card-body">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <input type="hidden" asp-for="Id" />
+
+                    <input type="hidden" asp-for="UserId" />
+                    <input type="hidden" asp-for="ScreeningId" />
+
+                    <div class="mb-3">
+                        <label asp-for="ReservationCreatedDate" class="form-label">Reservation Date</label>
+                        <input asp-for="ReservationCreatedDate" class="form-control bg-dark text-white border-info" />
+                        <span asp-validation-for="ReservationCreatedDate" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="ReservedSeats" class="form-label">Reserved Seats</label>
+                        <input asp-for="ReservedSeats" class="form-control bg-dark text-white border-info" />
+                        <span asp-validation-for="ReservedSeats" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="TotalPrice" class="form-label">Total Price</label>
+                        <input asp-for="TotalPrice" class="form-control bg-dark text-white border-info" />
+                        <span asp-validation-for="TotalPrice" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <input type="submit" value="💾 Save" class="btn btn-outline-info shadow" />
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="ReservationCreatedDate" class="control-label"></label>
-                <input asp-for="ReservationCreatedDate" class="form-control" />
-                <span asp-validation-for="ReservationCreatedDate" class="text-danger"></span>
+            <div class="card-footer text-end">
+                <a asp-controller="Reservations" asp-action="MyReservations" class="btn btn-outline-secondary shadow">Back to Reservations</a>
             </div>
-            <div class="form-group">
-                <label asp-for="ReservedSeats" class="control-label"></label>
-                <input asp-for="ReservedSeats" class="form-control" />
-                <span asp-validation-for="ReservedSeats" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TotalPrice" class="control-label"></label>
-                <input asp-for="TotalPrice" class="form-control" />
-                <span asp-validation-for="TotalPrice" class="text-danger"></span>
-            </div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

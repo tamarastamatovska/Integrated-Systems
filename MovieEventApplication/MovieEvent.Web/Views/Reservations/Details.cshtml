@@ -1,49 +1,37 @@
 ﻿@model MovieEvent.Domain.DomainModels.Reservation
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Reservation Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+    }
+</style>
 
-<div>
-    <h4>Reservation</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Screening)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Screening.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.User)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.User.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ReservationCreatedDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ReservationCreatedDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ReservedSeats)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ReservedSeats)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TotalPrice)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TotalPrice)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<h2 class="text-center text-info mb-4">🎟️ Reservation Details</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow bg-dark text-white border-info border-2">
+            <div class="card-header bg-info text-dark fw-bold">
+                Movie: @Model.Screening?.Movie?.Title
+            </div>
+            <div class="card-body">
+                <p><strong>Cinema Hall:</strong> @Model.Screening?.CinemaHall</p>
+                <p><strong>Reservation Date:</strong> @Model.ReservationCreatedDate.ToString("dd.MM.yyyy")</p>
+                <p><strong>Reserved Seats:</strong> @Model.ReservedSeats</p>
+                <p><strong>Total Price:</strong> @Model.TotalPrice ден.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+                <a asp-action="Edit" asp-route-id="@Model?.Id"
+                   class="btn btn-outline-info shadow">Edit Reservation</a>
+                <a asp-controller="Reservations" asp-action="MyReservations"
+                   class="btn btn-outline-secondary shadow">Back to Reservations</a>
+            </div>
+        </div>
+    </div>
 </div>
