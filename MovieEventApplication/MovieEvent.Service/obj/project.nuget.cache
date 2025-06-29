@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tW9f24Se8U4=",
+  "dgSpecHash": "nVLpdnaanv0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj",
+  "projectFilePath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tamara\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Tamara\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -15,10 +15,12 @@ namespace MovieEvent.Web.Controllers
     public class MovieRatingsController : Controller
     {
         private readonly IMovieRatingService _movieRatingService;
+        private readonly IMovieService _movieService;
 
-        public MovieRatingsController(IMovieRatingService movieRatingService)
+        public MovieRatingsController(IMovieRatingService movieRatingService, IMovieService movieService)
         {
             _movieRatingService = movieRatingService;
+            _movieService = movieService;
         }
 
         // GET: MovieRatings
@@ -43,7 +45,10 @@ namespace MovieEvent.Web.Controllers
         // GET: MovieRatings/Create
         public IActionResult Create()
         {
-             return View();
+            var movies = _movieService.GetAll(); 
+
+            ViewBag.MovieId = new SelectList(movies, "Id", "Title");
+            return View();
         }
 
         // POST: MovieRatings/Create
@@ -58,6 +63,10 @@ namespace MovieEvent.Web.Controllers
                 _movieRatingService.Insert(movieRating);
                 return RedirectToAction(nameof(Index));
             }
+
+            var movies = _movieService.GetAll();
+            ViewBag.MovieId = new SelectList(movies, "Id", "Title", movieRating.MovieId);
+
             return View(movieRating);
         }
 
@@ -69,6 +78,7 @@ namespace MovieEvent.Web.Controllers
             {
                 return NotFound();
             }
+            ViewBag.MovieTitle = movieRating.Movie?.Title ?? "Unknown";
             return View(movieRating);
         }
 
@@ -82,6 +92,16 @@ namespace MovieEvent.Web.Controllers
             if (id != movieRating.Id)
             {
                 return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+               
+                var movie = _movieRatingService.GetAll()
+                    .FirstOrDefault(m => m.MovieId == movieRating.MovieId)?.Movie;
+                ViewBag.MovieTitle = movie?.Title ?? "Unknown";
+
+                return View(movieRating);
             }
 
             _movieRatingService.Update(movieRating);

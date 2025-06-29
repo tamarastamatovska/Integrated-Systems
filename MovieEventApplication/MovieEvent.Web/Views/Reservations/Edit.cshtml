@@ -21,11 +21,10 @@
                 Update Reservation Details
             </div>
             <div class="card-body">
-                <form asp-action="Edit">
+                <form asp-action="Edit" method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                     <input type="hidden" asp-for="Id" />
-
                     <input type="hidden" asp-for="UserId" />
                     <input type="hidden" asp-for="ScreeningId" />
 
@@ -37,13 +36,13 @@
 
                     <div class="mb-3">
                         <label asp-for="ReservedSeats" class="form-label">Reserved Seats</label>
-                        <input asp-for="ReservedSeats" class="form-control bg-dark text-white border-info" />
+                        <input asp-for="ReservedSeats" id="ReservedSeats" class="form-control bg-dark text-white border-info" />
                         <span asp-validation-for="ReservedSeats" class="text-danger"></span>
                     </div>
 
                     <div class="mb-3">
                         <label asp-for="TotalPrice" class="form-label">Total Price</label>
-                        <input asp-for="TotalPrice" class="form-control bg-dark text-white border-info" />
+                        <input asp-for="TotalPrice" id="TotalPrice" readonly class="form-control bg-dark text-white border-info" />
                         <span asp-validation-for="TotalPrice" class="text-danger"></span>
                     </div>
 
@@ -63,4 +62,18 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+
+    <script>
+        const ticketPrice = @ViewBag.TicketPrice.ToString(System.Globalization.CultureInfo.InvariantCulture);
+        const seatInput = document.getElementById('ReservedSeats');
+        const totalInput = document.getElementById('TotalPrice');
+
+        function updateTotal() {
+            const count = parseInt(seatInput.value) || 0;
+            totalInput.value = (count * ticketPrice).toFixed(2);
+        }
+
+        seatInput.addEventListener('input', updateTotal);
+        updateTotal();
+    </script>
 }

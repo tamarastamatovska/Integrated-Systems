@@ -29,6 +29,8 @@
             <div class="card-footer d-flex justify-content-between">
                 <a asp-action="Edit" asp-route-id="@Model?.Id"
                    class="btn btn-outline-info shadow">Edit Reservation</a>
+                <a asp-action="Cancel" asp-route-id="@Model?.Id" class="btn btn-danger">Cancel Reservation</a>
+
                 <a asp-controller="Reservations" asp-action="MyReservations"
                    class="btn btn-outline-secondary shadow">Back to Reservations</a>
             </div>

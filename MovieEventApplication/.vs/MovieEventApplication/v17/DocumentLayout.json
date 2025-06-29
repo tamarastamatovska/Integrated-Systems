@@ -1,57 +1,217 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\",
+  "WorkspaceRootPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\screenings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\screenings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\implementation\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\screenings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\screenings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\screenings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\screenings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\screenings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\screenings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\interface\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\interface\\imovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\imovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\domainmodels\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\domainmodels\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\domainmodels\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\screenings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\screenings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\screenings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\controllers\\screeningscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\reservations\\myreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\reservations\\myreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\reservations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\reservations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\reservations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\reservations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\reservations\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\reservations\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movies\\viewscreenings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\viewscreenings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movies\\rate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\rate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movieratings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movieratings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movieratings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movieratings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movieratings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movieratings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movieratings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movieratings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\movieratings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movieratings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\controllers\\screeningscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\screeningscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\controllers\\movieratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\movieratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\interface\\iusermovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\iusermovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\interface\\iscreeningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\iscreeningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\interface\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\interface\\imovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\imovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\interface\\idatafetchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\idatafetchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\implementation\\usermovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\usermovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\implementation\\screeningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\screeningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\implementation\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\implementation\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\implementation\\movieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\movieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.service\\implementation\\datafetchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\datafetchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\identitymodels\\movieuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\identitymodels\\movieuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\domainmodels\\usermovierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\usermovierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\domainmodels\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\domainmodels\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\domainmodels\\movierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\movierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\domainmodels\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\domainmodels\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,148 +227,68 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\implementation\\usermovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\usermovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\identitymodels\\movieuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\identitymodels\\movieuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\domainmodels\\usermovierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\usermovierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.UserMovieRatings.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.MovieRatings.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\interface\\iusermovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\iusermovieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\domainmodels\\movierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\movierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\implementation\\movieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\movieratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\movies\\rate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\rate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\implementation\\datafetchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\datafetchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\controllers\\movieratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\movieratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\implementation\\screeningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\screeningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\implementation\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\implementation\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|solutionrelative:movieevent.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|solutionrelative:movieevent.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\dto\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\interface\\idatafetchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\idatafetchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|solutionrelative:movieevent.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.Movies.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|solutionrelative:movieevent.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\interface\\iscreeningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\iscreeningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E7A26B-B292-40A0-B1B7-C1FA872FA3F9}|MovieEvent.Service\\MovieEvent.Service.csproj|solutionrelative:movieevent.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.repository\\movieevent.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.repository\\movieevent.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|solutionrelative:movieevent.repository\\movieevent.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|solutionrelative:movieevent.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.repository\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.repository\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45636598-2C01-429C-9078-A9D32D8E5DF2}|MovieEvent.Repository\\MovieEvent.Repository.csproj|solutionrelative:movieevent.repository\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{925F4877-EDA4-4C60-9791-C4AACC30430A}|MovieEvent.Web\\MovieEvent.Web.csproj|solutionrelative:movieevent.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\domainmodels\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\domainmodels\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\moviesapplication\\movieeventapplication\\movieevent.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|c:\\users\\tamara\\desktop\\isproject\\movieeventapplication\\movieevent.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEE3FABA-5576-43E9-93E8-3B5EF4B3F151}|MovieEvent.Domain\\MovieEvent.Domain.csproj|solutionrelative:movieevent.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -219,7 +299,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 285,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -251,24 +331,453 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Screenings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Edit.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Screenings\\Edit.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:08:59.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Details.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Screenings\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Details.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Screenings\\Details.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:08:57.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Screenings\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Delete.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Screenings\\Delete.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:08:54.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyReservations.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\MyReservations.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Reservations\\MyReservations.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\MyReservations.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Reservations\\MyReservations.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:08:45.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Reservations\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Delete.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Reservations\\Delete.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:08:31.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Screenings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Index.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Screenings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T18:31:46.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cancel.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Cancel.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Reservations\\Cancel.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Cancel.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Reservations\\Cancel.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswCAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T18:11:22.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Details.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Reservations\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Details.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Reservations\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T17:34:55.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Reservations\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Edit.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Reservations\\Edit.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAEwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T19:49:49.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Create.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Screenings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Create.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Screenings\\Create.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T11:53:55.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewScreenings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\ViewScreenings.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\ViewScreenings.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\ViewScreenings.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\ViewScreenings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:08:09.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Reservations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Index.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Reservations\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T19:25:40.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Edit.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Edit.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T17:24:25.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Details.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T12:07:17.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Delete.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Delete.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T15:21:41.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Create.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Reservations\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Reservations\\Create.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Reservations\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T19:23:57.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Create.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Create.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T15:21:12.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\MovieRatings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Index.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\MovieRatings\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T18:25:43.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T15:22:11.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Rate.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Rate.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Rate.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Rate.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T12:10:03.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\MovieRatings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Edit.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\MovieRatings\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T18:27:10.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Details.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\MovieRatings\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Details.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\MovieRatings\\Details.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T18:54:04.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\MovieRatings\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Delete.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\MovieRatings\\Delete.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T19:11:21.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Create.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\MovieRatings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\MovieRatings\\Create.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\MovieRatings\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T19:13:58.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:07:14.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MovieEvent.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:06:58.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "MovieEvent.Web\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAowNMAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAANgAAAAAAAAAAAAYwFsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T12:58:45.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 29,
+              "Title": "MovieRatingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\MovieRatingsController.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\MovieRatingsController.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\MovieRatingsController.cs",
+              "RelativeToolTip": "MovieEvent.Web\\Controllers\\MovieRatingsController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwEUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:04:14.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MovieEvent.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:01:59.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "MovieEvent.Web\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAAHQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:05:05.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ScreeningsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\ScreeningsController.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\ScreeningsController.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Controllers\\ScreeningsController.cs",
+              "RelativeToolTip": "MovieEvent.Web\\Controllers\\ScreeningsController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAIwBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:05:40.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUserMovieRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IUserMovieRatingService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IUserMovieRatingService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IUserMovieRatingService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Interface\\IUserMovieRatingService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:10:20.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IScreeningService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IScreeningService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IScreeningService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IScreeningService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Interface\\IScreeningService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:28:03.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IReservationService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IReservationService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IReservationService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Interface\\IReservationService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:27:37.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "IMovieService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IMovieService.cs",
               "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IMovieService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IMovieService.cs",
               "RelativeToolTip": "MovieEvent.Service\\Interface\\IMovieService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -277,50 +786,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Index.cshtml",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Index.cshtml",
-              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Index.cshtml",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAswFoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T15:22:11.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReservationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\ReservationsController.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\ReservationsController.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\ReservationsController.cs",
-              "RelativeToolTip": "MovieEvent.Web\\Controllers\\ReservationsController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwF4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T13:05:05.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\MovieService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\MovieService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\MovieService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Implementation\\MovieService.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T12:31:19.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 35,
               "Title": "IMovieRatingService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IMovieRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IMovieRatingService.cs",
               "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IMovieRatingService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IMovieRatingService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IMovieRatingService.cs",
               "RelativeToolTip": "MovieEvent.Service\\Interface\\IMovieRatingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,61 +799,206 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ScreeningsController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\ScreeningsController.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\ScreeningsController.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\ScreeningsController.cs",
-              "RelativeToolTip": "MovieEvent.Web\\Controllers\\ScreeningsController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBcAAAApAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "IDataFetchService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IDataFetchService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IDataFetchService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Interface\\IDataFetchService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Interface\\IDataFetchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T13:05:40.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserMovieRatingService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\UserMovieRatingService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\UserMovieRatingService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\UserMovieRatingService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Implementation\\UserMovieRatingService.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAswFQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T11:12:48.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Movie.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\Movie.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Movie.cs",
-              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\Movie.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:39:50.194Z",
+              "WhenOpened": "2025-06-23T15:06:52.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 37,
+              "Title": "UserMovieRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\UserMovieRatingService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\UserMovieRatingService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\UserMovieRatingService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Implementation\\UserMovieRatingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:12:48.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ScreeningService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\ScreeningService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\ScreeningService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\ScreeningService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Implementation\\ScreeningService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:32:03.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\ReservationService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\ReservationService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Implementation\\ReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:31:49.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\MovieService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\MovieService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\MovieService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Implementation\\MovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:31:19.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MovieRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\MovieRatingService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\MovieRatingService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\MovieRatingService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Implementation\\MovieRatingService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:31:32.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DataFetchService.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\DataFetchService.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\DataFetchService.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\Implementation\\DataFetchService.cs",
+              "RelativeToolTip": "MovieEvent.Service\\Implementation\\DataFetchService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwv0YAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:10:53.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MovieUser.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
+              "RelativeToolTip": "MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:40:22.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MovieDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DTO\\MovieDTO.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Domain\\DTO\\MovieDTO.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DTO\\MovieDTO.cs",
+              "RelativeToolTip": "MovieEvent.Domain\\DTO\\MovieDTO.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAywBIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:25:08.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserMovieRating.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\UserMovieRating.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\UserMovieRating.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\UserMovieRating.cs",
+              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\UserMovieRating.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:41:01.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "Screening.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Screening.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Screening.cs",
               "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\Screening.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Screening.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Screening.cs",
               "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\Screening.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T16:40:05.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 47,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Reservation.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Reservation.cs",
+              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:40:14.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "MovieRating.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\MovieRating.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\MovieRating.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\MovieRating.cs",
+              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\MovieRating.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:40:50.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\Movie.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Movie.cs",
+              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\Movie.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA5wBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:39:50.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\BaseEntity.cs",
+              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:39:58.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAmwFsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -391,67 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Create.cshtml",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Screenings\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Screenings\\Create.cshtml",
-              "RelativeToolTip": "MovieEvent.Web\\Views\\Screenings\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T11:53:55.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Details.cshtml",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Details.cshtml",
-              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Details.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T12:07:17.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserMovieRating.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\UserMovieRating.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\UserMovieRating.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\UserMovieRating.cs",
-              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\UserMovieRating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:41:01.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Reservation.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\Reservation.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\Reservation.cs",
-              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:40:14.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MovieUser.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
-              "RelativeToolTip": "MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:40:22.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 56,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.AspNetUsers.sql",
@@ -460,7 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 54,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Tamara\\AppData\\Local\\SourceServer\\e7416e31aea4131c23a62560e814a86ea8979c282309e1fb43091f0f94f86907\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\e7416e31aea4131c23a62560e814a86ea8979c282309e1fb43091f0f94f86907\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -472,11 +1027,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 51,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAkwBIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -484,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 53,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Tamara\\AppData\\Local\\SourceServer\\8d2bd9b0454dea23b61be3e2ddcd240ba71d3a1d5bfc010f55c3b75ec4e22e08\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\8d2bd9b0454dea23b61be3e2ddcd240ba71d3a1d5bfc010f55c3b75ec4e22e08\\MovieEventApplication\\MovieEvent.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -496,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 55,
               "Title": "MovieUser.cs",
               "DocumentMoniker": "C:\\Users\\Tamara\\AppData\\Local\\SourceServer\\aea5a984859b3d50c703a75406f42f6f810fc13fb1095bcba14d199d5da03d94\\MovieEventApplication\\MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\aea5a984859b3d50c703a75406f42f6f810fc13fb1095bcba14d199d5da03d94\\MovieEventApplication\\MovieEvent.Domain\\IdentityModels\\MovieUser.cs",
@@ -508,7 +1063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 58,
               "Title": "dbo.MovieRatings.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.MovieRatings.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.MovieRatings.sql",
@@ -517,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 57,
               "Title": "dbo.UserMovieRatings.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.UserMovieRatings.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.UserMovieRatings.sql",
@@ -526,47 +1081,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IUserMovieRatingService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IUserMovieRatingService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IUserMovieRatingService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IUserMovieRatingService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Interface\\IUserMovieRatingService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T11:10:20.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "MovieRating.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\MovieRating.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\MovieRating.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\MovieRating.cs",
-              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\MovieRating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:40:50.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MovieRatingService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\MovieRatingService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\MovieRatingService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\MovieRatingService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Implementation\\MovieRatingService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T12:31:32.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 59,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Program.cs",
               "RelativeDocumentMoniker": "MovieEvent.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Program.cs",
               "RelativeToolTip": "MovieEvent.Web\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -574,59 +1093,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DataFetchService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\DataFetchService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\DataFetchService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\DataFetchService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Implementation\\DataFetchService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwDsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:10:53.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Rate.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Rate.cshtml",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Rate.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Rate.cshtml",
-              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Rate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T12:10:03.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "MovieRatingsController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\MovieRatingsController.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\MovieRatingsController.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\MovieRatingsController.cs",
-              "RelativeToolTip": "MovieEvent.Web\\Controllers\\MovieRatingsController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAADwv3QAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T13:04:14.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\ReservationService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\ReservationService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\ReservationService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Implementation\\ReservationService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T12:31:49.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 60,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\Implementation\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\Implementation\\UserRepository.cs",
               "RelativeDocumentMoniker": "MovieEvent.Repository\\Implementation\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\Implementation\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\Implementation\\UserRepository.cs",
               "RelativeToolTip": "MovieEvent.Repository\\Implementation\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -634,11 +1105,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 61,
               "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\Implementation\\Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\Implementation\\Repository.cs",
               "RelativeDocumentMoniker": "MovieEvent.Repository\\Implementation\\Repository.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\Implementation\\Repository.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\Implementation\\Repository.cs",
               "RelativeToolTip": "MovieEvent.Repository\\Implementation\\Repository.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAwwGgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -646,35 +1117,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ScreeningService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\ScreeningService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Implementation\\ScreeningService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Implementation\\ScreeningService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Implementation\\ScreeningService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwC8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T12:32:03.241Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IDataFetchService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IDataFetchService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IDataFetchService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IDataFetchService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Interface\\IDataFetchService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:06:52.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 64,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\Interface\\IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "MovieEvent.Repository\\Interface\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\Interface\\IUserRepository.cs",
               "RelativeToolTip": "MovieEvent.Repository\\Interface\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -682,19 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "MovieDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DTO\\MovieDTO.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Domain\\DTO\\MovieDTO.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DTO\\MovieDTO.cs",
-              "RelativeToolTip": "MovieEvent.Domain\\DTO\\MovieDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:25:08.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 63,
               "Title": "dbo.Movies.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.Movies.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MovieEventDB/True/SqlTable/dbo.Movies.sql",
@@ -703,35 +1138,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Delete.cshtml",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Delete.cshtml",
-              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Delete.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAqwCAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T15:21:41.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Create.cshtml",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Movies\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Movies\\Create.cshtml",
-              "RelativeToolTip": "MovieEvent.Web\\Views\\Movies\\Create.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAqwBwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T15:21:12.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 62,
               "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\Interface\\IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\Interface\\IRepository.cs",
               "RelativeDocumentMoniker": "MovieEvent.Repository\\Interface\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\Interface\\IRepository.cs",
               "RelativeToolTip": "MovieEvent.Repository\\Interface\\IRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -739,35 +1150,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "IScreeningService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IScreeningService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IScreeningService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IScreeningService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Interface\\IScreeningService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T12:28:03.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IReservationService.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IReservationService.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Service\\Interface\\IReservationService.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\Interface\\IReservationService.cs",
-              "RelativeToolTip": "MovieEvent.Service\\Interface\\IReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T12:27:37.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 65,
               "Title": "MovieEvent.Repository.csproj",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj",
               "RelativeDocumentMoniker": "MovieEvent.Repository\\MovieEvent.Repository.csproj",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj",
               "RelativeToolTip": "MovieEvent.Repository\\MovieEvent.Repository.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -775,11 +1162,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 67,
               "Title": "ApplicationDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\ApplicationDbContextFactory.cs",
               "RelativeDocumentMoniker": "MovieEvent.Repository\\ApplicationDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\ApplicationDbContextFactory.cs",
               "RelativeToolTip": "MovieEvent.Repository\\ApplicationDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -787,11 +1174,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 66,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "MovieEvent.Repository\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\ApplicationDbContext.cs",
               "RelativeToolTip": "MovieEvent.Repository\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -799,11 +1186,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 68,
               "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "MovieEvent.Web\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -811,11 +1198,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 69,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "MovieEvent.Web\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -823,11 +1210,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 70,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "MovieEvent.Web\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "MovieEvent.Web\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -835,23 +1222,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MovieEvent.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:01:59.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 71,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "MovieEvent.Domain\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\ErrorViewModel.cs",
               "RelativeToolTip": "MovieEvent.Domain\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -859,11 +1234,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 72,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\appsettings.json",
               "RelativeDocumentMoniker": "MovieEvent.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\appsettings.json",
               "RelativeToolTip": "MovieEvent.Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -871,23 +1246,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "MovieEvent.Domain\\DomainModels\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\DomainModels\\BaseEntity.cs",
-              "RelativeToolTip": "MovieEvent.Domain\\DomainModels\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:39:58.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 73,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "MovieEvent.Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\Class1.cs",
               "RelativeToolTip": "MovieEvent.Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

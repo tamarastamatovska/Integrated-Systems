@@ -45,9 +45,17 @@
                     <span asp-validation-for="Year" class="text-danger"></span>
                 </div>
 
+                @* <div class="mb-4"> *@
+                @*     <label asp-for="RANKCategory" class="form-label">Category</label> *@
+                @*     <select asp-for="RANKCategory" class="form-control bg-dark text-light border-info"></select> *@
+                @*     <span asp-validation-for="RANKCategory" class="text-danger"></span> *@
+                @* </div> *@
                 <div class="mb-4">
                     <label asp-for="RANKCategory" class="form-label">Category</label>
-                    <select asp-for="RANKCategory" class="form-control bg-dark text-light border-info"></select>
+                    <select asp-for="RANKCategory" class="form-control bg-dark text-light border-info"
+                            asp-items="ViewBag.RANKCategoryList">
+                        <option value="">-- Select Category --</option>
+                    </select>
                     <span asp-validation-for="RANKCategory" class="text-danger"></span>
                 </div>
 

@@ -83,6 +83,12 @@ namespace MovieEvent.Web.Controllers
             {
                 return NotFound();
             }
+            ViewBag.RANKCategoryList = new SelectList(Enum.GetValues(typeof(RANKCategory))
+                                          .Cast<RANKCategory>()
+                                          .Select(c => new {
+                                              Value = (int)c,
+                                              Text = c.ToString()
+                                          }), "Value", "Text", movie.RANKCategory);
             return View(movie);
         }
 
@@ -97,6 +103,7 @@ namespace MovieEvent.Web.Controllers
             {
                 return NotFound();
             }
+            
 
             _movieService.Update(movie);
             return RedirectToAction(nameof(Index));

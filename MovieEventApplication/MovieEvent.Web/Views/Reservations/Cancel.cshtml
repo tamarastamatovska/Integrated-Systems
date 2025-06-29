@@ -1,0 +1,47 @@
+﻿@model MovieEvent.Domain.DomainModels.Reservation
+
+@{
+    ViewData["Title"] = "Cancel Reservation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+    }
+</style>
+
+<div class="container py-4">
+    <div class="card bg-dark text-light shadow-lg border-danger border-2">
+        <div class="card-header p-3 text-danger fw-semibold fs-4">
+            Cancel Reservation
+        </div>
+
+        <div class="card-body">
+            <h5 class="mb-4">
+                Are you sure you want to cancel your reservation for the movie:
+                <strong>@Model.Screening.Movie.Title</strong>
+                on <strong>@Model.Screening.ScreeningDate.ToString("MM/dd/yyyy")</strong>?
+            </h5>
+
+            <dl class="row">
+                <dt class="col-sm-4">Reserved Seats</dt>
+                <dd class="col-sm-8">@Model.ReservedSeats</dd>
+
+                <dt class="col-sm-4">Total Price</dt>
+                <dd class="col-sm-8">@Model.TotalPrice ДЕН. </dd>
+            </dl>
+
+            <form asp-action="Cancel" method="post">
+                <input type="hidden" asp-for="Id" />
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="MyReservations" class="btn btn-outline-light">
+                        ⬅ Back
+                    </a>
+                    <button type="submit" class="btn btn-danger shadow">Cancel Reservation</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

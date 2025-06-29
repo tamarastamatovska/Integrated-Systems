@@ -70,7 +70,7 @@
                 <i class="bi bi-ticket-perforated"></i> My Reservations
             </a>
         </div>
-        <!-- Hidden create button -->
+
         <a asp-action="Create" class="d-none">Create New</a>
     </div>
     <form asp-action="Search" method="get" class="mb-4">
@@ -91,8 +91,8 @@
                     <p>Actors: @movie.Actors</p>
                     <div class="card-buttons">
                         <a asp-action="Details" asp-route-id="@movie.Id" class="btn btn-outline-light btn-sm">Details</a>
-                        @* <a asp-action="Edit" asp-route-id="@movie.Id" class="btn btn-outline-light btn-sm">Edit</a> *@
-                        @* <a asp-action="Delete" asp-route-id="@movie.Id" class="btn btn-outline-danger btn-sm">Delete</a> *@
+                        <a asp-action="Edit" asp-route-id="@movie.Id" class="btn btn-outline-light btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@movie.Id" class="btn btn-outline-danger btn-sm">Delete</a>
                         <a asp-action="ViewScreenings" asp-route-id="@movie.Id" class="btn btn-info btn-sm">Tap to view screenings</a>
                     </div>
                 </div>

@@ -102,6 +102,8 @@ namespace MovieEvent.Web.Controllers
             {
                 return NotFound();
             }
+            var screening = _screeningService.GetById(reservation.ScreeningId);
+            ViewBag.TicketPrice = screening?.TicketPrice ?? 0;
             return View(reservation);
         }
 
@@ -112,6 +114,7 @@ namespace MovieEvent.Web.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Guid id, [Bind("ScreeningId,UserId,ReservationCreatedDate,ReservedSeats,TotalPrice,Id")] Reservation reservation)
         {
+            
             if (id != reservation.Id)
             {
                 return NotFound();
@@ -119,8 +122,12 @@ namespace MovieEvent.Web.Controllers
 
             if (!ModelState.IsValid)
             {
+                var screening = _screeningService.GetById(reservation.ScreeningId);
+                ViewBag.TicketPrice = screening?.TicketPrice ?? 0;
                 return View(reservation);
             }
+
+            
 
             _reservationService.Update(reservation);
             return RedirectToAction("MyReservations");
@@ -165,5 +172,34 @@ namespace MovieEvent.Web.Controllers
         //{
         //    return _context.Reservations.Any(e => e.Id == id);
         //}
+        // GET: Reservations/Cancel/5
+        public IActionResult Cancel(Guid id)
+        {
+            var reservation = _reservationService.GetById(id);
+            if (reservation == null)
+            {
+                return NotFound();
+            }
+
+            return View(reservation);
+        }
+
+        // POST: Reservations/Cancel/5
+        [HttpPost, ActionName("Cancel")]
+        [ValidateAntiForgeryToken]
+        public IActionResult CancelConfirmed(Guid id)
+        {
+            try
+            {
+                _reservationService.CancelReservation(id);
+                return RedirectToAction("MyReservations");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                var reservation = _reservationService.GetById(id);
+                return View(reservation);
+            }
+        }
     }
 }

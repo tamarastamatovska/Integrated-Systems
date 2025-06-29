@@ -5,50 +5,123 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c3c);
+        background-attachment: fixed;
+        color: white;
+    }
 
-<h4>Screening</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Movie" class="control-label"></label>
-                <select asp-for="MovieId" class ="form-control" asp-items="ViewBag.MovieId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="AvailableSeats" class="control-label"></label>
-                <input asp-for="AvailableSeats" class="form-control" />
-                <span asp-validation-for="AvailableSeats" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TicketPrice" class="control-label"></label>
-                <input asp-for="TicketPrice" class="form-control" />
-                <span asp-validation-for="TicketPrice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CinemaHall" class="control-label"></label>
-                <input asp-for="CinemaHall" class="form-control" />
-                <span asp-validation-for="CinemaHall" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ScreeningDate" class="control-label"></label>
-                <input asp-for="ScreeningDate" class="form-control" />
-                <span asp-validation-for="ScreeningDate" class="text-danger"></span>
-            </div>
+    .card {
+        background-color: #1e1e2f;
+        border: 1px solid #00bcd4;
+        max-width: 600px;
+        margin: 2rem auto;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(13, 202, 240, 0.5);
+    }
 
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+    label {
+        color: #0dcaf0;
+        font-weight: 500;
+    }
+
+    input.form-control,
+    select.form-control {
+        background-color: #2c2f4a;
+        border: 1px solid #00bcd4;
+        color: white;
+    }
+
+        input.form-control:focus,
+        select.form-control:focus {
+            box-shadow: 0 0 5px #0dcaf0;
+            outline: none;
+        }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .btn-primary {
+        background-color: #0dcaf0;
+        border: none;
+        padding: 0.5rem 1.5rem;
+        font-weight: 600;
+        box-shadow: 0 0 8px rgba(13, 202, 240, 0.7);
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0bb8de;
+            box-shadow: 0 0 12px rgba(11, 184, 222, 0.9);
+        }
+
+    a {
+        display: inline-block;
+        margin-top: 1rem;
+        color: #0dcaf0;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+        a:hover {
+            color: #0bb8de;
+            text-decoration: underline;
+        }
+</style>
+
+<h1 class="text-info" style="text-align:center;">Create</h1>
+
+<div class="card">
+    <h4>Screening</h4>
+    <hr />
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="MovieId" class="control-label"></label>
+            <select asp-for="MovieId" class="form-control" asp-items="ViewBag.MovieId"></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="AvailableSeats" class="control-label"></label>
+            <input asp-for="AvailableSeats" class="form-control" />
+            <span asp-validation-for="AvailableSeats" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="TicketPrice" class="control-label"></label>
+            <input asp-for="TicketPrice" class="form-control" />
+            <span asp-validation-for="TicketPrice" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CinemaHall" class="control-label"></label>
+            <input asp-for="CinemaHall" class="form-control" />
+            <span asp-validation-for="CinemaHall" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ScreeningDate" class="control-label"></label>
+            <input asp-for="ScreeningDate" class="form-control" />
+            <span asp-validation-for="ScreeningDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
 </div>
 
-<div>
+<div style="max-width:600px; margin: 1rem auto;">
     <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

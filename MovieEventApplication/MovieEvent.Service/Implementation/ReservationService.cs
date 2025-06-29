@@ -104,6 +104,29 @@ namespace MovieEvent.Service.Implementation
 
             return _reservationRepository.Insert(reservation);
         }
-        
+        public void CancelReservation(Guid reservationId)
+        {
+            var reservation = GetById(reservationId);
+            if (reservation == null)
+            {
+                throw new Exception("Reservation not found");
+            }
+
+            var screening = _screeningService.GetById(reservation.ScreeningId);
+            if (screening == null)
+            {
+                throw new Exception("Screening not found");
+            }
+
+            screening.AvailableSeats += reservation.ReservedSeats;
+            screening.ReservedSeats -= reservation.ReservedSeats;
+
+            if (screening.ReservedSeats < 0) screening.ReservedSeats = 0; 
+
+            _screeningService.Update(screening);
+
+            _reservationRepository.Delete(reservation);
+        }
+
     }
 }

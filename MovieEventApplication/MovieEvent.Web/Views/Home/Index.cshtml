@@ -2,12 +2,12 @@
     ViewData["Title"] = "Home Page";
 }
 <style>
-    /* Отстрани ги стандардните маргини и padding */
+    
     html, body {
         margin: 0;
         padding: 0;
         height: 100%;
-        overflow-x: hidden; /* за да не се појави хоризонтален скрол */
+        overflow-x: hidden; 
     }
 
     .bg-image {
@@ -16,9 +16,8 @@
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
-        width: 100vw; /* ширина 100% од прозорецот */
-        position: absolute; /* позиционирај апсолутно */
-        top: 0;
+        width: 100vw; 
+        position: absolute;
         left: 0;
         display: flex;
         justify-content: center;
@@ -27,7 +26,7 @@
         text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     }
 
-    /* Ако имаш navbar или header, може да треба да го подесиш z-index */
+    
     .navbar {
         position: relative;
         z-index: 10;

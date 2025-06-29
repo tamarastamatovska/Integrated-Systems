@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\MovieEvent.Web.csproj": {}
+    "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\MovieEvent.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj": {
+    "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj",
         "projectName": "MovieEvent.Domain",
-        "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj",
+        "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj",
         "packagesPath": "C:\\Users\\Tamara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj": {
+    "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj",
         "projectName": "MovieEvent.Repository",
-        "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj",
+        "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj",
         "packagesPath": "C:\\Users\\Tamara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj": {
-                "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj"
+              "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj": {
+    "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj",
         "projectName": "MovieEvent.Service",
-        "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj",
+        "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj",
         "packagesPath": "C:\\Users\\Tamara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\obj\\",
+        "outputPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -193,11 +193,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj": {
-                "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj"
+              "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj"
               },
-              "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj": {
-                "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj"
+              "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj": {
+                "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj"
               }
             }
           }
@@ -243,14 +243,14 @@
         }
       }
     },
-    "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\MovieEvent.Web.csproj": {
+    "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\MovieEvent.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\MovieEvent.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\MovieEvent.Web.csproj",
         "projectName": "MovieEvent.Web",
-        "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\MovieEvent.Web.csproj",
+        "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\MovieEvent.Web.csproj",
         "packagesPath": "C:\\Users\\Tamara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Web\\obj\\",
+        "outputPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -272,14 +272,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj": {
-                "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj"
+              "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Domain\\MovieEvent.Domain.csproj"
               },
-              "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj": {
-                "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj"
+              "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj": {
+                "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Repository\\MovieEvent.Repository.csproj"
               },
-              "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj": {
-                "projectPath": "C:\\Users\\Tamara\\Desktop\\MoviesApplication\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj"
+              "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj": {
+                "projectPath": "C:\\Users\\Tamara\\Desktop\\ISProject\\MovieEventApplication\\MovieEvent.Service\\MovieEvent.Service.csproj"
               }
             }
           }
