@@ -57,6 +57,12 @@ namespace MovieEvent.Web.Controllers
         // GET: Movies/Create
         public IActionResult Create()
         {
+            ViewBag.RANKCategoryList = new SelectList(Enum.GetValues(typeof(RANKCategory))
+                                        .Cast<RANKCategory>()
+                                        .Select(c => new {
+                                            Value = (int)c,
+                                            Text = c.ToString()
+                                        }), "Value", "Text");
             return View();
         }
 
@@ -65,7 +71,7 @@ namespace MovieEvent.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("Title,Description,PosterUrl,ReleaseDate,Duration,Genre,RANK,Year,RANKCategory")] Movie movie)
+        public IActionResult Create([Bind("Title,Description,PosterUrl,ReleaseDate,Duration,Genre,RANK,Year,RANKCategory,Actors")] Movie movie)
         {
             if (ModelState.IsValid)
             {
@@ -97,7 +103,7 @@ namespace MovieEvent.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Guid id, [Bind("Title,Description,PosterUrl,ReleaseDate,Duration,Genre,RANK,Year,RANKCategory,Id")] Movie movie)
+        public IActionResult Edit(Guid id, [Bind("Title,Description,PosterUrl,ReleaseDate,Duration,Genre,RANK,Year,RANKCategory,Actors,Id")] Movie movie)
         {
             if (id != movie.Id)
             {
